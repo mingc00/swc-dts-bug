@@ -1,0 +1,17 @@
+{
+  "name": "swc-dts-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "swc --out-dir dist index.ts",
+    "clean": "rm -rf dist"
+  },
+  "author": "Mingc <ciffel@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "0.4.1-nightly.20240914",
+    "@swc/core": "^1.7.36"
+  },
+  "packageManager": "pnpm@9.12.2"
+}

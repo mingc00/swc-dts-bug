@@ -1,0 +1,13 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "jsc": {
+    "loose": true,
+    "parser": {
+      "syntax": "typescript"
+    },
+    "experimental": {
+      "emitIsolatedDts": true
+    },
+    "target": "es2022"
+  }
+}
